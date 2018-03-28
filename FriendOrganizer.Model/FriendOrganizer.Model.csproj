@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9000B5F4-02BD-42E4-9A8B-71E50CCD2771}</ProjectGuid>
+    <ProjectGuid>{3943529C-DD85-4EC1-908E-93409B052684}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FriendOrganizer.Model</RootNamespace>
     <AssemblyName>FriendOrganizer.Model</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -43,7 +43,8 @@
   <ItemGroup>
     <Compile Include="Friend.cs" />
     <Compile Include="FriendPhoneNumber.cs" />
-    <Compile Include="LookUpItem.cs" />
+    <Compile Include="LookupItem.cs" />
+    <Compile Include="Meeting.cs" />
     <Compile Include="ProgrammingLanguage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
