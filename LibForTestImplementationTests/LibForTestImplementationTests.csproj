@@ -62,12 +62,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibForTestImplementation\LibForTestImplementation.csproj">
-      <Project>{84D351FC-01BF-453B-A9F3-22B01AE3FBA5}</Project>
-      <Name>LibForTestImplementation</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
